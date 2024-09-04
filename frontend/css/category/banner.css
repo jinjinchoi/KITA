@@ -1,0 +1,49 @@
+/* 상단 배너영역 비우기 */
+.banner-space {
+    box-sizing: border-box;
+    width: calc(100vw - 40px);
+    height: 80px;
+    padding: 20px;
+}
+
+
+/* 배너 div 설정 */
+.banner-contanier {
+    box-sizing: border-box;
+    width: calc(100vw - 40px);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+}
+
+
+.banner-search-input{
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(247, 223, 255);
+    width: 500px;
+    height: 10px;
+    display: inline-flex;
+    padding: 15px;
+}
+
+/* 상단바 로그인 a 태그 */
+.banner-login-a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 상단바 로그아웃 로그인 */
+.banner-userUI {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

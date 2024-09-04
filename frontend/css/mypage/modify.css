@@ -1,0 +1,101 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+#wrap{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#modify_box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    position:relative;
+    background-color: beige;
+}
+
+#form {
+    display:flex;
+    flex-direction: column;
+}
+
+#form_img {
+    width: 200px;
+    height:200px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-left:75px;
+}
+
+#form > input {
+    width:300px;
+    height:30px;
+    margin:7px 0 7px 20px;
+}
+
+#btn_box{
+    display:flex;
+    width:350px;
+    height:30px;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+#okBtn {
+    width:70px;
+    height:30px;
+    font-weight: 700;
+    border:none;
+    background-color: rgb(219, 219, 219);
+    border-radius:20px;
+}
+
+#okBtn:hover{
+    border:0.5px solid ;
+}
+
+#cancelBtn{
+    width:70px;
+    height:30px;
+    font-weight: 700;
+    border:none;
+    background-color: rgb(219, 219, 219);
+    border-radius:20px;
+}
+
+#cancelBtn:hover{
+    border:0.5px solid;
+}
+
+#user_img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+#uprofile_input{
+    display:none;
+}
+
+#form_img:hover{
+    cursor:pointer;
+}
+
+#okBtn:hover{
+    cursor:pointer;
+}
+
+#cancelBtn:hover{
+    cursor:pointer;
+}

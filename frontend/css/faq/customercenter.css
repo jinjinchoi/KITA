@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:#fff;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ################# 초기화 ################# */
+
+
+/* ################ content ################ */
+#content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+#content > h2 {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  position: relative;
+}
+
+#content h2:after {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  content: '';
+  display: block;
+  width: 64px;
+  height: 5px;
+  background-color: rgb(108, 64, 168);
+}
+
+#content > p{
+  margin: 20px 0 50px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ############# content-wrap ############## */
+.content-wrap{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ############# form ############# */
+
+#searchFrm {
+  width: 500px;
+  display: flex;
+}
+
+#faqSearch {
+  width: 83%;
+  height: 28px;
+  padding: 5px 9px;
+  font-size: 20px;
+  border: 2px solid #efefef;
+}
+
+#faqSearch::placeholder {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#searchBtn {
+  width: 15%;
+  height: 42px;
+  border: none;
+  color: rgb(238, 238, 48);
+  background: rgb(71, 33, 123);
+  font-weight: 700;
+  font-size: 18px
+}
+
+/* ############# faq-board ################# */
+.faq-board {
+  width: 850px;
+  border: 1px solid #ccc;
+  margin: 80px 0 30px;
+}
+
+.faq-board > .faq-list {
+  width: 100%;
+  border:1px solid #333;
+  height:38px;
+  overflow:hidden;
+}
+
+.faq-list > .faq-title {
+  padding:8px;
+  cursor:pointer;
+}
+
+.faq-list > .faq-content {
+  padding:10px 8px;
+  border-top: 1px solid #333;
+  position: relative;
+  line-height: 30px;
+}
+
+.faq-list > .faq-content > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  width: 36px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  position: absolute;
+  right:50px;
+  bottom: 10px;
+}
+
+.faq-list > .faq-content > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  width: 36px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+  border:none;
+  cursor:pointer;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* ############# 페이지 네이션 ############### */
+.page-nation{
+  width: 352px;
+  display:flex;
+  justify-content: center;
+}
+
+.page-nation .page-arrow{
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+.page-nation > ol {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-nation > ol > li{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.page-nation > ol > li > a{
+  display: flex;
+  width:100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*  a 태그 첫 페이지 체크 */
+.page-checked {
+  border-bottom: 2px solid #333;
+}
+
+.page-not-checked {
+  border: none;
+}
+
+/* registBtn */
+.registBtn { 
+  width: 852px;
+  display: flex;
+  justify-content: right;
+}
+
+.registBtn a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(238, 238, 48);
+  background: rgb(71, 33, 123);
+  width: 80px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+

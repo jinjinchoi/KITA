@@ -1,0 +1,388 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#wrap {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    height:100%;
+}
+
+#wrap > h1{
+    margin: 50px 0px 10px 0px;
+    font-weight: 400;
+}
+
+#info_text{
+    margin-bottom: 20px;
+}
+
+#mypage{
+    display:flex;
+    flex-direction: column;
+    width:840px;
+    height:531px;
+    border:1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 25px 0px 0px 25px;
+}
+
+#mypage_box > h2{
+    font-weight: 100;
+    margin-bottom:10px;
+}
+
+#mypage_text{
+    font-size:14px;
+}
+
+#profile_box {
+    display:flex;
+    width:840px;
+    height:60px;
+    padding: 15px 0px;
+    align-items: center;
+    border-bottom:0.5px solid rgb(197, 197, 197);
+}
+
+#profile_box:hover{
+    cursor:pointer;
+    background-color: antiquewhite;
+    transition:0.3s;
+}
+
+#pf_title{
+    width:170px;
+    font-size:12px;
+    font-weight: 500;
+    color:#444746;
+}
+
+#pf_content{
+    width:510px;
+    font-size:14px;
+    color:#444746;
+}
+
+#pf_img{
+    width:60px;
+    height:60px;
+    border:1px solid #444746;
+    border-radius: 40px;
+    margin-left:70px;
+}
+
+#pf_img > img {
+    width:60px;
+    height:60px;
+    overflow:hidden;
+    border-radius:40px;
+}
+
+#uid_box{
+    display:flex;
+    width:840px;
+    height:45px;
+    padding:15px 0px;
+    align-items: center;
+    border-bottom:0.5px solid rgb(197, 197, 197);
+    position:relative;
+}
+
+#uid_title{
+    width:170px;
+    font-size:12px;
+    font-weight: 500;
+    color:#444746;
+}
+
+#uid_content{
+    width:510px;
+}
+
+/* #uid_arrow::after{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:32px;
+    right:25px;
+    transform:rotate(43deg);
+}
+
+#uid_arrow::before{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:40px;
+    right:25px;
+    transform:rotate(133deg);
+} */
+
+#umessage_box{
+    display:flex;
+    width:840px;
+    height:45px;
+    padding:15px 0px;
+    align-items: center;
+    border-bottom:0.5px solid rgb(197, 197, 197);
+    position:relative;
+}
+
+#umessage_box:hover{
+    cursor:pointer;
+    background-color: antiquewhite;
+    transition:0.3s;
+}
+
+#umessage_title{
+    width:170px;
+    font-size:12px;
+    font-weight: 500;
+    color:#444746;
+}
+
+#umessage_content{
+    width:510px;
+    font-size:14px;
+    color:#444746;
+}
+
+#umessage_arrow::after{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:32px;
+    right:25px;
+    transform:rotate(43deg);
+}
+
+#umessage_arrow::before{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:40px;
+    right:25px;
+    transform:rotate(133deg);
+}
+
+#unickname_box{
+    display:flex;
+    width:840px;
+    height:45px;
+    padding:15px 0px;
+    align-items: center;
+    border-bottom:0.5px solid rgb(197, 197, 197);
+    position:relative;
+}
+
+#unickname_box:hover{
+    cursor:pointer;
+    background-color: antiquewhite;
+    transition:0.3s;
+}
+
+#nick_title{
+    width:170px;
+    font-size:12px;
+    font-weight: 500;
+    color:#444746;
+}
+
+#nick_content{
+    width:510px;
+}
+
+#nick_arrow::after{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:32px;
+    right:25px;
+    transform:rotate(43deg);
+}
+
+#nick_arrow::before{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:40px;
+    right:25px;
+    transform:rotate(133deg);
+}
+
+#uemail_box{
+    display:flex;
+    width:840px;
+    height:45px;
+    padding:15px 0px;
+    align-items: center;
+    border-bottom:0.5px solid rgb(197, 197, 197);
+    position:relative;
+}
+
+#uemail_box:hover{
+    cursor:pointer;
+    background-color: antiquewhite;
+    transition:0.3s;
+}
+
+#email_title{
+    width:170px;
+    font-size:12px;
+    font-weight: 500;
+    color:#444746;
+}
+
+#email_content{
+    width:510px;
+}
+
+#email_arrow::after{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:32px;
+    right:25px;
+    transform:rotate(43deg);
+}
+
+#email_arrow::before{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:40px;
+    right:25px;
+    transform:rotate(133deg);
+}
+
+#uphone_box{
+    display:flex;
+    width:840px;
+    height:45px;
+    padding:15px 0px;
+    align-items: center;
+    position:relative;
+}
+
+#uphone_box:hover{
+    cursor:pointer;
+    background-color: antiquewhite;
+    transition:0.3s;
+    border-radius:0 0 9px 0;
+}
+
+#phone_title{
+    width:170px;
+    font-size:12px;
+    font-weight: 500;
+    color:#444746;
+}
+
+#phone_content{
+    width:510px;
+}
+
+#phone_arrow::after{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:32px;
+    right:25px;
+    transform:rotate(43deg);
+}
+
+#phone_arrow::before{
+    content:"";
+    position: absolute;
+    border:1px solid #444746;
+    border-radius: 3px;
+    background-color: #444746;
+    width:11px;
+    height:1px;
+    top:40px;
+    right:25px;
+    transform:rotate(133deg);
+}
+
+#okBtn{
+    width:70px;
+    height:23px;
+    font-weight: 700;
+    position:absolute;
+    top:720px;
+    right:610px;
+    background-color: rgb(219, 219, 219);
+    border:none;
+    border-radius: 10px;
+}
+
+#okBtn:hover{
+    cursor:pointer;
+    border:0.5px solid;
+}
+
+#okBtn > a{
+    color:black;
+    text-decoration-line: none;
+}
+
+#cancelBtn{
+    width:70px;
+    height:23px;
+    font-weight: 700;
+    position:absolute;
+    top:720px;
+    right:530px;
+    background-color: rgb(219, 219, 219);
+    border:none;
+    border-radius: 10px;
+}
+
+#cancelBtn > a{
+    color:black;
+    text-decoration-line: none;
+}
+
+#cancelBtn:hover{
+    cursor:pointer;
+    border:0.5px solid;
+}

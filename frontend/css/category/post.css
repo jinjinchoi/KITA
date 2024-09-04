@@ -1,0 +1,142 @@
+/* 변수 선언 */
+:root {
+    --wrightRegion-width: 700px;
+    --board-padding: 5px;
+}
+
+
+/* 포스트 전체 영역 div */
+.post-container{
+    width: 100%;
+    border: 0px solid;
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+}
+
+.post-region{
+    width: var(--wrightRegion-width);
+}
+
+/* 포스트 상단 영역 div */
+.post-profileRegion {
+    width: var(--wrightRegion-width);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--board-padding);
+}
+
+/* 상단영역 요소들 마진 */
+.post-profileRegion > div {
+    margin-right: 10px;
+}
+
+/* 프로필 사진 */
+.profileRegion-userProfile{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileRegion-userImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 본문 전체 영역 div */
+.post-mainContainer {
+    width: var(--wrightRegion-width);
+    padding: var(--board-padding);
+    border: none;
+    border-radius: 15px;
+}
+
+.post-mainContainer:hover {
+    background-color: rgba(240, 244, 247, 0.5);
+}
+
+/* 제목 */
+.mainContainer-titleRegion {
+    width: var(--wrightRegion-width);
+    word-break: normal;
+    margin-bottom: 5px;
+}
+
+/* 본문 글 div */
+.mainContainer-dataRegion {
+    width: var(--wrightRegion-width);
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-break: normal;
+}
+
+/* 게시물 사진 영역 */
+.mainContainer-fileRegion {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mainContainer-fileRegion.off {
+    display: none;
+}
+
+/* 이미지 영역 설정 */
+.mainContainer-file {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 하단 영역 */
+.post-bottomContainer {
+    padding: var(--board-padding);
+    display: flex;
+    flex-direction: row;
+}
+
+.post-bottomContainer > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 하단 좋아요 댓글 버튼 설정 */
+.bottomContainer-buttonReion {
+    width: 80px;
+    height: 30px;
+    border: 0px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    background-color: rgb(221, 229, 231);
+    padding: 3px
+}
+
+.bottomContainer-buttonReion:hover {
+    background-color: rgb(208, 217, 220);
+    cursor: pointer;
+}
+
+/* 게시물 나눠주는 hr */
+.postDivide {
+    border: 0px;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+/* 포스트 누르면 해당 게시물 들어가게 */
+.post-A {
+    width: inherit;
+    text-decoration: none;
+    color: inherit;
+}

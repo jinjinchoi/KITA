@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bodyDiv {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+/* 전체 영역 */
+#wholeDiv {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+/* 메인 박스 */
+.main {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: calc(100vw - 271px);
+}
+
+/* 메인 영역 div */
+.main-container{
+    width: 1000px;
+}
+
+/* 타이틀 영역 div */
+.title-container{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* 글 목록, 글 작성 영역 */
+.topBar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+/* 글작성 버튼 */
+.topBar-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.topBar-button-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topBar-button:hover {
+    background-color: lightblue;
+}

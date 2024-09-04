@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../css/faq/adminfaq.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div id="content">
+    <h2>관리자 페이지 자주 묻는 질문</h2>
+    <form class="content-box" id="faqFrm" action="http://localhost:3000/faq/admin" method="post">
+      <label class="label-class1" for="customerTitle">제목</label>
+      <input class="inputClass" type="text" id="faqTitle" name="faqTitle" placeholder="제목을 입력해주세요">
+      <label class="label-class2" for="faqContent">본문</label>
+      <textarea class="text-content" name="faqContent" id="faqContent" placeholder="본문을 입력해주세요"></textarea>
+      <div class="regist">
+        <button class="registBtn">글 작성</button>
+        <a class="cancelBtn" href="customercenter.html">취소</a>
+      </div>
+    </form>
+    <div class="content-box" id="modifyWrap">
+      <label class="label-class1" for="modifyTitle">제목</label>
+      <input class="inputClass" type="text" id="modifyTitle" name="modifyTitle"  placeholder="제목 입력해주세요"  placeholder="본문을 입력해주세요">
+      <label class="label-class2" for="modifyContent">본문</label>
+      <textarea placeholder="본문을 입력해주세요" class="text-content" name="modifyContent" id="modifyContent"></textarea>
+      <div class="regist">
+        <button class="registBtn" id="modifyBtn">수정</button>
+        <a class="cancelBtn" href="customercenter.html">취소</a>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../../js/faq/adminfaq.js"></script>
+</html>

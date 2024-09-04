@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="../../css/mypage/mypage.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<body>
+    <div id="wrap">
+        <h1>마이 페이지</h1>
+        <div id="info_text">Kita 서비스에서 사용되는 나의 프로필에 관한 정보입니다.</div>
+        <div id="profile_info">
+            <div id="profile_info_text"></div>
+        </div>
+        <div id="mypage">
+            <div id="mypage_box">
+                <h2>개인 정보</h2>
+                <div id="mypage_text">일부 정보가 Kita 서비스를 사용하는 다른 사람에게 표시될 수 있습니다.</div>
+                <div id="profile_box">
+                    <div id="pf_title">프로필 사진</div>
+                    <div id="pf_content">기본 프로필 사진을 수정하여 계정을 맞춤설정하세요.</div>
+                    <div id="pf_img"><img id="user_img" src=""></div>
+                </div>
+                <div id="uid_box">  
+                    <div id="uid_title">아이디</div>
+                    <div id="uid_content"></div>
+                    <div id="uid_arrow"></div>
+                </div>
+                <div id="umessage_box">
+                    <div id="umessage_title">비밀번호</div>
+                    <div id="umessage_content">비밀번호</div>
+                    <div id="umessage_arrow"></div>
+                </div>
+                <div id="unickname_box">
+                    <div id="nick_title">닉네임</div>
+                    <div id="nick_content"></div>
+                    <div id="nick_arrow"></div>
+                </div>
+                <div id="uemail_box">
+                    <div id="email_title">이메일</div>
+                    <div id="email_content"></div>
+                    <div id="email_arrow"></div>
+                </div>
+                <div id="uphone_box">
+                    <div id="phone_title">휴대폰 번호</div>
+                    <div id="phone_content"></div>
+                    <div id="phone_arrow">
+                </div>
+            </div>
+        </div>
+        <button type="button" id='okBtn'>수정</button>
+        <button type="button" id="cancelBtn">돌아가기</button>
+    </div>
+</body>
+<script src="../../js/mypage/mypage.js"></script>
+</html>

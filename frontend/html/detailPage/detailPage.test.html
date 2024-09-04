@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> KITA - 이곳, 그대를 위하여 </title>
+</head>
+<link rel = "stylesheet" href ="../../css/category/banner.css">
+<link rel = "stylesheet" href ="../../css/category/leftbar.css">
+<link rel = "stylesheet" href ="../../css/category/main.css">
+<link rel = "stylesheet" href ="../../css/detailPage/detailPage.css">
+<link rel = "stylesheet" href ="../../css/detailPage/comment.css">
+<script src ="" type="module" defer></script>
+<body>
+    <!-- Header start -->
+    <header role="banner">
+        <div class = "banner-contanier">
+            <a href=""><h2>KITA</h2><div class = "banner-logo-region"></div></a>
+            <div class = "banner-searchBar-container">
+                <!-- 검색 영역 (추후 action 추가) -->
+                <form action="" method="post">
+                    <label for="banner-searchInput" class="banner-label">
+                        <input type="text" placeholder="정보를 찾아 멋진 여행을 떠나세요!" class = "banner-search-input">
+                    </label>
+                </form>
+            </div>
+            <div class="banner-login-button">
+                <span> Log in</span>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- 헤더 영역 차지할 빈 영역 -->
+    <div class = "banner-space"> </div>
+    
+    <div id = "wholeDiv"> 
+    <!-- 사이드바 차지할 빈 영역 -->
+    <div class = "sidebar-space"> </div>
+
+    <!-- sidebar start -->
+    <nav id="leftBar-nav">
+        <div id="leftBar-container">
+            <li class = "leftBar-list"> <a href="../category/main.html" class = "leftBar-a"> Home </a></li>
+            <hr class = "leftBar-hr">
+            <div class="leftBar-title-container">
+                <span> Category </span>
+            </div>
+            <div class="leftBar-menu-continer">
+                <div class="leftBar-category-container">
+                   <a href="../category/free.html" class = "leftBar-category-a"> <span> 자유게시판 </span> </a>
+                </div>
+                <div class="leftBar-category-container">
+                    <a href="" class = "leftBar-category-a"> <span> 맛집 추천 </span> </a>
+                </div>
+                <div class="leftBar-category-container">
+                    <a href="" class = "leftBar-category-a"> <span> 불편 · 불만 </span> </a>
+                </div>
+            </div>
+            <hr class = "leftBar-hr">
+            <div class="leftBar-menu-continer">
+                <div class="leftBar-title-container">
+                    <span> Help </span>
+                </div>
+                <div class="leftBar-category-container">
+                    <span> 고객센터 </span>
+                </div>
+                <div class="leftBar-category-container">
+                    <span> 오시는 길 </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- sidebar end -->
+
+     <main class = "main">
+        <div class = "main-container">
+            <!-- 상단 환영인사 문구 -->
+            <div class="title-container">
+                <h1> Explore this page! </h1>
+            </div>
+            <!-- 상단 글 작성 버튼 영역 -->
+            <div class = "topBar-container">
+                <a href="" class = "topBar-button-a">
+                    <div class = "topBar-button">
+                        <span> 게시물</span>
+                    </div>
+                </a>
+                <a href="" class = "topBar-button-a">
+                    <div class = "topBar-button">
+                        <span> 글작성 </span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- 상세페이지 영역 -->
+            <div class="detailContainer">
+                <div class="onlyPostContainer">
+            
+                    <!-- 최상단 유저 정보 영역 -->
+                    <div class="topProfileContainer">
+                        <div class="topProfileContainer-userImgContainer"> <img src=""
+                                class="topProfileContainer-userImgContainer-img"> </div> <!-- 프로필 사진 -->
+                        <div class="topProfileContainer-nicknameContainer"><span>닉네임</span></div>
+                        <div clasas="topProfileContainer-dateContainer"><span>2024년 7월 25일 19:55</span></div>
+                        <div class="topProfileContainer-categoryContainer"><span>카테고리</span></div>
+                        <div class="topProfileContainer-viewContainer"><span>조회수 100</span></div>
+                        <div class="topProfileContainer-UDContainer">
+                            <a href="" class="UDContainer-updateA">
+                                <div class="UDContainer-updateContainer"><span>수정</span></div>
+                            </a>
+                            <div class="UDContainer-deleteContainer"><span>삭제</span></div>
+                        </div>
+                    </div>
+            
+                    <!-- 게시물 내용 들어갈 컨테이너 -->
+                    <div class="contentContainer">
+                        <div class="contentContainer-titleContainer">
+                            <h3>제목이 들어갈 부분입니다.</h3>
+                        </div>
+                        <div class="contentContainer-contentContainer">
+                            <span>본문 내용이 들어갈 부분입니다.</span>
+                        </div>
+                        <!-- 이미지 들어가는 div -->
+                        <div class="contentContainer-fileContainer">
+                            <img src="" class="contentContainer-img">
+                        </div>
+            
+                        <!-- 댓글, 좋아요 버튼 영역 -->
+                        <div class="post-bottomContainer">
+                            <!-- 댓글 -->
+                            <div class="bottomContainer-buttonReion"><span> 💬 999+ </span></div>
+                            <!-- 좋아요 -->
+                            <div class="bottomContainer-buttonReion"><span> ♡ 999+</span></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 게시물 영역 종료 -->
+
+                <!-- 댓글 입력 영역 -->
+                <div class="commentInputContainer">
+                    <form class="commentInputContainer-form">
+                        <textarea class="commentInputContainer-textarea" placeholder="Believe Pride"></textarea>
+                        <button type="submit" class="commentInputContainer-submitBtn"> 작성 </button>
+                    </form>
+                </div>
+                
+                <!-- 댓글 영역  -->
+                <div class="commentContainer">
+
+                    <!-- 유저 프사와 닉네임 댓글 내용 담는 영역-->
+                    <div class="commentContainer-frofileAndContent">
+                        <!-- 유저 정보 영역 -->
+                        <div class="userImgContainer"> <img src="" class="userProfileContainer-userImgContainer-img"></div>
+                        <div class="entireUserInfo">
+                            <div class="userProfileContainer">
+                                <div class="userProfileContainer-nicknamecontainer"> <span> 닉네임 </span></div>
+                                <div class="userProfileContainer-dateContainer"> <span> 2024년 7월 25일 20:13 </span></div>
+                                <div class="userProfileContainer-repliesBtnContainer"><span> 답글 </span></div>
+                                <div class="userProfileContainer-updateBtnContainer"><span> 수정 </span></div>
+                                <div class="userProfileContainer-deleteBtnContainer"><span> 삭제 </span></div>
+                            </div>
+                            <!-- 댓글 내용  -->
+                            <div class="replyContainer">
+                                <span> 이곳에 댓글 내용이 들어갑니다.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 대댓글 -->
+                    <div class="commentContainer-frofileAndContent-repeat">
+                        <!-- 유저 정보 영역 -->
+                        <div class="userImgContainer"> <img src="" class="userProfileContainer-userImgContainer-img"></div>
+                        <div class="entireUserInfo">
+                            <div class="userProfileContainer">
+                                <div class="userProfileContainer-nicknamecontainer"> <span> 닉네임 </span></div>
+                                <div class="userProfileContainer-dateContainer"> <span> 2024년 7월 25일 20:13 </span></div>
+                                <div class="userProfileContainer-repliesBtnContainer"><span> 답글 </span></div>
+                                <div class="userProfileContainer-updateBtnContainer"><span> 수정 </span></div>
+                                <div class="userProfileContainer-deleteBtnContainer"><span> 삭제 </span></div>
+                            </div>
+                            <!-- 댓글 내용  -->
+                            <div class="replyContainer">
+                                <span> 이곳에 댓글 내용이 들어갑니다.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 답글창 -->
+                    <div class="replyInputContainer">
+                        <form class="commentInputContainer-form">
+                            <textarea class="commentInputContainer-textarea" placeholder="Believe Dream"></textarea>
+                            <button type="submit" class="commentInputContainer-submitBtn"> 작성 </button>
+                        </form>
+                    </div>
+                    
+
+                    <!-- 유저 프사와 닉네임 댓글 내용 담는 영역-->
+                    <div class="commentContainer-frofileAndContent">
+                        <!-- 유저 정보 영역 -->
+                        <div class="userImgContainer"> <img src="" class="userProfileContainer-userImgContainer-img"></div>
+                        <div class="entireUserInfo">
+                            <div class="userProfileContainer">
+                                <div class="userProfileContainer-nicknamecontainer"> <span> 닉네임 </span></div>
+                                <div class="userProfileContainer-dateContainer"> <span> 2024년 7월 25일 20:13 </span></div>
+                            </div>
+                            <!-- 댓글 내용  -->
+                            <div class="replyContainer">
+                                <!-- 댓글 업데이트 -->
+                                <div class="replyUpdateContainer">
+                                    <form class="commentInputContainer-form">
+                                        <textarea class="commentUpdateContainer-textarea" placeholder="Believe Yell"></textarea>
+                                        <button type="submit" class="commentInputContainer-submitBtn"> 수정 </button>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+        </div>
+     </main>
+    </div>
+</body>
+</html>

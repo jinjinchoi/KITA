@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<link rel="stylesheet" href="../../css/login/login.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<body oncontextmenu="return false" ondragstart="return false">
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20110822_129%2Fksj7537_1313974446203sxMFX_JPEG%2F42w07.jpg&type=sc960_832">
+    <div id="wrap">
+        <div id="login_box">
+            <div id="error_message" style="color: red;"></div>
+            <span id="login_text">로그인</span>
+            <form id="form">
+                <input id="uid" type="text" name="uid" placeholder="아이디를 입력하세요.">
+                <input id="upw" type="password" name="upw" placeholder="비밀번호를 입력하세요.">
+                <button type="button" class="login_btn">로그인</button>
+            </form>
+            <div id="or_box">
+                <span id="or">또는</span>
+            </div>
+            <div id="social_box">
+                <div id="google_login">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+                    <span>구글 로그인</span>
+                </div>
+                <div id="kakao_login">
+                    <img src="https://cs.kakao.com/images/icon/img_kakaocs.png">
+                    <span>카카오 로그인</span>
+                </div>
+            </div>
+            
+            <a href="비밀번호 찾을 주소" id="find_pw">비밀번호를 잊으셨나요?</a>
+            <div id="signup_box">
+                <span id="signup_text">계정이 없으신가요?</span><a href="../../html/signup/signup.html" id="signup_btn">가입하기</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../js/login/login.js"></script>
+</html>
